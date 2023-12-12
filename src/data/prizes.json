@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Ipad Pro",
+    "imageUrl": "/src/assets/ipad-pro.png",
+    "imageAlt": "Image of an Ipad Pro",
+    "cod": "499291",
+    "description": "The versatility of the iPad. The power of the M1 chip. Exclusive Products, Personalized Service and the Best After-Sales in Brazil. Fast delivery. Best Deals."
+  },
+  {
+    "name": "Iphone 13 Pro",
+    "imageUrl": "/src/assets/iphone-13-pro.png",
+    "imageAlt": "Image of an Iphone 13 Pro",
+    "cod": "859778",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "name": "Apple Watch 6",
+    "imageUrl": "/src/assets/apple-watch-6.png",
+    "imageAlt": "Image of an Apple Watch 6",
+    "cod": "189635",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "name": "Apple Tags",
+    "imageUrl": "/src/assets/apple-tags.png",
+    "imageAlt": "Image of an Apple Tags",
+    "cod": "230215",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  }
+]

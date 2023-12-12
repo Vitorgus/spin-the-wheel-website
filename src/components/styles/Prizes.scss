@@ -1,0 +1,78 @@
+@use '@/utils/variables' as *;
+@use '@/utils/mixins' as *;
+@use 'sass:color';
+
+.prizes {
+  height: 252px;
+  padding: 55px 16px;
+  background-color: #EFF5FA;
+  font-family: Roboto;
+  font-weight: 700;
+
+  &__wrapper {
+    @include breakpoint($lg) {
+      max-width: 1172px;
+      margin: 0 auto;
+    }
+  }
+
+
+  &__title {
+    color: $color-primary;
+    font-size: 20px;
+    text-align: center;
+
+    @include breakpoint($lg) {
+      text-align: left;
+    }
+  }
+
+  &__gallery {
+    margin-top: 19px;
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+    list-style-type: none;
+
+    &-item {
+      border-radius: 5px 5px 0px 0px;
+      background: #FFF;
+      box-shadow: 0px 5px 15px 0px rgba(0, 120, 230, 0.10);
+      border-bottom: 2px solid $color-secondary;
+      padding: 10px 14px 13px;
+      width: 270px;
+      box-sizing: border-box;
+      flex-shrink: 0;
+
+      color: var(--Color-Primary, #343C54);
+      font-size: 22px;
+      font-weight: 700;
+
+      display: grid;
+      grid-template-columns: auto 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 4px 15px;
+
+      &:hover {
+        background: color.change($color-secondary, $alpha: 0.1);
+        box-shadow: 0px 5px 15px 0px rgba(0, 120, 230, 0.10);
+      }
+
+      &-image {
+        grid-row: 1 / span 2;
+        align-self: center;
+      }
+
+      &-tag {
+        background-color: $color-secondary;
+        color: #FFF;
+        font-size: 11px;
+        text-transform: uppercase;
+        padding: 4px 5px 2px;
+        width: fit-content;
+        height: fit-content;
+        align-self: end;
+      }
+    }
+  }
+}
