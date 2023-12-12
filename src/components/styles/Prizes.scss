@@ -34,6 +34,15 @@
     gap: 30px;
     list-style-type: none;
 
+    width: fit-content;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include breakpoint($lg) {
+      width: 100%;
+    }
+
     &-item {
       border-radius: 5px 5px 0px 0px;
       background: #FFF;
@@ -56,6 +65,7 @@
       &-image {
         grid-row: 1 / span 2;
         align-self: center;
+        max-width: 80px;
       }
 
       &-tag {
