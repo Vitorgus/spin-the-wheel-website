@@ -1,7 +1,9 @@
+import TheHeader from './components/TheHeader'
+
 function App() {
   return (
     <>
-      <h1>Hello, world!</h1>
+      <TheHeader />
     </>
   )
 }
