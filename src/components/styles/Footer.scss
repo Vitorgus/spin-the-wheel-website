@@ -1,0 +1,93 @@
+@use '@/utils/variables' as *;
+@use '@/utils/mixins' as *;
+
+.footer {
+  padding: 58px 25px 94px;
+  font-family: Roboto;
+  color: $color-primary;
+  font-size: 20px;
+  font-weight: 700;
+
+  text-align: center;
+
+  &__form {
+    margin-top: 31px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    @include breakpoint($lg) {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: center;
+    }
+
+    &-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    &-label {
+      color: $neutral-grey-2;
+      display: block;
+
+      /* Support Text */
+      font-family: Poppins;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    &-input {
+      border-radius: 3px;
+      border: 1px solid $neutral-grey-3;
+      background: $neutral-ghost;
+
+      color: $neutral-grey-3;
+
+      /* Body */
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px; /* 157.143% */
+
+      padding: 10px 15px 8px;
+
+      @include breakpoint($lg) {
+        width: 370px;
+      }
+
+    }
+
+    &-button {
+      color: $primary-white;
+
+      /* Buttons */
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 400;
+
+      display: flex;
+      padding: 11px 20px 10px 20px;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+
+      border-radius: 3px;
+      background: $primary-azure;
+
+      margin-top: 21px;
+      max-width: fit-content;
+
+      @include breakpoint($lg) {
+        margin: 29px auto 0;
+        grid-column: 1 / span 2;
+      }
+    }
+  }
+}
