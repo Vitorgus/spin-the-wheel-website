@@ -45,7 +45,7 @@
 
     &-item {
       border-radius: 5px 5px 0px 0px;
-      background: #FFF;
+      background: $primary-white;
       box-shadow: 0px 5px 15px 0px rgba(0, 120, 230, 0.10);
       border-bottom: 2px solid $color-secondary;
       padding: 10px 14px 13px;
@@ -70,7 +70,7 @@
 
       &-tag {
         background-color: $color-secondary;
-        color: #FFF;
+        color: $primary-white;
         font-size: 11px;
         text-transform: uppercase;
         padding: 4px 5px 2px;

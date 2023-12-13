@@ -34,7 +34,6 @@
       color: $neutral-grey-2;
       display: block;
 
-      /* Support Text */
       font-family: Poppins;
       font-size: 13px;
       font-style: normal;
@@ -49,12 +48,11 @@
 
       color: $neutral-grey-3;
 
-      /* Body */
       font-family: Poppins;
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
-      line-height: 22px; /* 157.143% */
+      line-height: 22px;
 
       padding: 10px 15px 8px;
 
@@ -67,7 +65,6 @@
     &-button {
       color: $primary-white;
 
-      /* Buttons */
       font-family: Poppins;
       font-size: 14px;
       font-weight: 400;
