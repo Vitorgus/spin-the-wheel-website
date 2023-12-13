@@ -24,7 +24,6 @@ function Prizes () {
         <ul className='prizes__gallery'>
           {prizes.map((prize, i) => (
             <li className='prizes__gallery-item'>
-
               <img
                 className='prizes__gallery-item-image'
                 src={prize.imageUrl}
@@ -34,6 +33,7 @@ function Prizes () {
               <p  className='prizes__gallery-item-tag'>
                 Prize {formatNumber(i+1)}
               </p>
+
               <p className='prizes__gallery-item-name'>
                 {prize.name}
               </p>

@@ -1,5 +1,6 @@
-import logo from '@/assets/logo.svg'
 import './styles/TheHeader.scss'
+
+import logo from '@/assets/logo.svg'
 
 function TheHeader() {
   return (

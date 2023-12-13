@@ -2,7 +2,7 @@ import './styles/Banner.scss'
 
 // TODO add banner image
 // TODO banner image animation
-// TODO banner wheel spin
+// TODO banner wheel spin on click
 function Banner () {
   return (
     <section className='banner'>
