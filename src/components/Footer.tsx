@@ -27,7 +27,7 @@ function Footer () {
       setRequestSuccess(true)
 
       const formData = new FormData(e.target as HTMLFormElement)
-      const formName = formData.get('name') as String
+      const formName = formData.get('name') as string
       const firstName = formName.split(' ')[0]
       setName(firstName)
     } catch (e) {

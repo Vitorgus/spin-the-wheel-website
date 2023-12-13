@@ -2,7 +2,7 @@ import './styles/Prizes.scss'
 
 import prizes from '@/data/prizes.json'
 
-function formatNumber(n: number): String {
+function formatNumber(n: number): string {
   let result = ''
 
   if (n < 10) {
